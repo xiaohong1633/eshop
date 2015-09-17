@@ -1,12 +1,4 @@
-#titile#
-``` bash
-$a=2
-```
-- list1
-- list2
-- list3
-
-# list1
-|col1|col2|
-
-|1|2|
+# eshop
+e-shop web site
+安装应用时在lib/model.php中修改数据库的密码
+然后执行sql文件即可
