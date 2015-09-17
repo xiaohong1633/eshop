@@ -1,0 +1,9 @@
+@charset "utf-8";
+.bottom_full{height:137px;}
+.bottom{width:1200px;height:137px;background-color:#4FA84D;margin-left:-600px;position:absolute;left:50%;}
+.bottom .bottom_top{width:1200px;height:16px;background:url(../images/bottom_flower.png) repeat-x left top;}
+.bottom .bottom_logo{width:100px;height:100px;position:absolute;top:21px;left:23px;}
+.bottom .bottom_text1{width:269px;height:83px;position:absolute;top:27px;left:131px;font-size:13px;color:#FFF;line-height:14px;padding-top:0;}
+.bottom .bottom_links{width:400px;height:19px;position:absolute;top:27px;left:796px;}
+.bottom .bottom_text2{width:255px;height:47px;position:absolute;top:60px;left:847px;font-size:13px;color:#FFFFFF;line-height:14px;}
+.bottom .bottom_links li{text-decoration:none;list-style:none;line-height:15px;border-right:1px solid #FFF;float:left;font-size:13px;padding-top: 0;padding-right: 10px;padding-bottom: 0;padding-left: 10px;}

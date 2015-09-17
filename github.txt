@@ -1,0 +1,11 @@
+
+git init
+
+git commit -m "first commit"
+git remote add origin https://github.com/prape/shop.git
+git push -u origin master
+
+
+ÑéÖ¤Âë
+user:parae
+password:zsk2ailst

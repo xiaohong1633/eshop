@@ -1,0 +1,34 @@
+@charset "utf-8";
+body{font-family:"微软雅黑", "宋体", arial, verdana, sans-serif;font-size:16px;margin:0;}
+.top_full{background:url(../images/bg-top.jpg) no-repeat center top;height:565px;}
+.user_main{width:1176px;margin:0 auto;background:url(../images/bg-flower.png) repeat top left;line-height:50px;}
+.title1{color:#FFF;font-style:italic;font-size:22px;}
+.title2{font-weight:bold;}
+.back_home_a{font-size:14px;color:#000000;text-decoration:none;}
+.back_home_a:hover{color:#FF0000;}
+.user_main input{width:150px;height:20px;}
+.user_main .btn1{width:50px;height:30px;}
+.node{color:#990000; font-size:16px;}
+.gray{color:#FFF;}
+.user_main .btn2{width:50px;height:30px;margin:20px 40px 0 60px;}
+.user_main .btn3{width:15px;height:15px;}
+/*生成订单页面*/
+.create_main{width:1176px;background-color:#FFFFFF;margin:0 auto;padding:40px 0;}
+.create_main .cm_cloud{margin-left:55px;}
+.cm_a a{color:#000;text-decoration:none;}
+.cm_a a:hover{text-decoration:underline;}
+.cm_a2 a{color:#000066; text-decoration:underline;}
+#status{height:auto;width:auto;}
+
+#button_next{width:125px;height:40px;background:url(../shop-images/menu-button.png) no-repeat left bottom;text-align:center;font-size:16px;color:#FFF; float:left;margin-left:150px;}
+#button_cancel{width:125px;height:40px;background:url(../shop-images/menu-button.png) no-repeat left bottom; text-align:center;font-size:16px;color:#FFF; float:left;margin-left:30px;}
+#button_back{width:125px;height:40px;background:url(../shop-images/menu-button.png) no-repeat left bottom;text-align:center;font-size:16px;color:#FFF; float:left;margin-left:150px;}
+#button_order{width:125px;height:40px;background:url(../shop-images/menu-button.png) no-repeat left bottom; text-align:center;font-size:16px;color:#FFF; float:left;margin-left:30px;}
+#button_back a:hover{text-decoration:none;}
+#button_order a:hover{text-decoration:none;}
+.cm_line{width:1150px;}
+.cm_line2{width:1100px;}
+.cm_set_order{line-height:40px;}
+.cm_order_ti{font-weight:bold;}
+.cm_interface{position:relative; left:160px;}
+.bottom_full{background-color:#0467e6;}

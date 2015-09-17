@@ -1,0 +1,142 @@
+<?php
+require_once("../admin/web.config.php");
+require_once($realLibPath."model/v_categoryPro.model.php");
+require_once(dirname(__FILE__)."/../lib/model/categoryPro.model.php");
+$categoryPro=new CategoryPro();
+$vcp = new VCategoryPro();
+?>
+
+<script type="text/javascript">
+$(function(){
+	//alert("存在jquery");
+	function generateProHtml(){
+		$("#shopmenu .select").empty();	
+		//console.log("<?php echo $vcp->getProNavHtml();?>");
+		$("<?php echo $vcp->getProNavHtml();?>").appendTo("#shopmenu .select");
+	}
+	generateProHtml();	
+	//查询按钮点击事件
+	$("#search_button").click(function(){
+		//alert("查询！");	
+		location.href="<?php echo $virtualRootPath.'shop/shop-search.php?option=search&name=';?>"+$("#search_input").val();
+	});
+	//子菜单点击事件	
+	$(".shop_home_more_sub").live("click",function(){
+		var id = $(this).attr('infoID');
+		//alert(id);
+		location.href="<?php echo $virtualRootPath.'shop/shop-search.php?option=childCat&catID=';?>"+id;
+	});
+	//父菜单点击事件
+	$(".shop_home_more").live("click",function(){
+		var id = $(this).attr('infoID');
+		//alert(id);
+		location.href="<?php echo $virtualRootPath.'shop/shop-search.php?option=parentCat&catID=';?>"+id;
+	});
+	$("#act_more").live("click",function(){
+		var option = $(this).attr('infoID');
+		//alert(option);
+		location.href="<?php echo $virtualRootPath.'shop/shop-search.php?option=';?>"+option;	
+	});
+	
+	
+	/*//推荐栏more按钮点击事件
+	$("#act_more_recommend").click(function(e) {
+		location.href="<?php echo $virtualRootPath.'shop/shop-search.php?option=recomment';?>";
+	});
+	//促销more按钮
+	$("#act_more_promotion").click(function(e) {
+		location.href="<?php echo $virtualRootPath.'shop/shop-search.php?option=promotion';?>";
+	});
+	//打折more点击事件
+	$("#act_more_discount").click(function(e) {
+		location.href="<?php echo $virtualRootPath.'shop/shop-search.php?option=discount';?>";
+	});
+	//包邮more按钮点击
+	$("#act_more_post").click(function(e) {
+		location.href="<?php echo $virtualRootPath.'shop/shop-search.php?option=post';?>";
+	});*/
+	
+	//用户退出按钮点击事件
+	$("#pro-head-quit").click(function(){
+		$.post("<?php echo $virtualRootPath.'common/exit.php';?>",{
+			option:"quit"	
+		},function(data){
+			if(data=="success!"){
+				location.reload();	
+			}
+		});	
+	});	
+	/*$("#act_more").click(function(){
+		alert("test");
+		$.post("<?php echo $virtualRootPath.'shop/shop-search.php';?>",{
+			option:'test',
+			test:'mys'	
+		},function(data){
+			//document.clear();
+			//document.write(data);
+			location.href="<?php echo $virtualRootPath.'shop/shop-search.php';?>";			
+		});	
+	});*/
+});
+</script>
+<div class="shop_banner_full">
+		<div class="shop_banner">
+		<!--产品导航-->
+		<div id="shopmenu">
+			<ul class="select">
+				<!--<li><a class="middle" href=""><span>肉制品</span></a>
+					<ul class="sub">
+						<li><a href=""><span class="down_word">手撕牦牛肉</span></a></li>
+						<li><a href="http://sincol.net/photo/gif/index.html"><span class="down_word">更多</span></a></li>
+					</ul>
+				</li>-->
+			</ul>
+		</div>
+		<?php
+			require_once(dirname(__FILE__)."/../admin/web.config.php");
+			require_once($realLibPath."model/v_images.model.php");
+			//require_once($realLibPath."model/imageDetail.model.php");
+			//$imgd= new ImageDetail();
+			$img = new VImages();
+			$imgs=$img->query(array('status'=>'Y','imgCat'=>'hdp'),array('href'));
+			//var_dump($imgs);
+		?>
+		<!--产品导航完毕-->
+		<div class="hb_cloud"><img src="../shop-images/cloud.png" alt="" /></div>
+		<div class="hb_custom"><span>您好，</span>
+			<?php
+			if(isset($_SESSION["QSID"])){
+			?>
+			[<a href="#"><?php echo $_SESSION['userName'];?></a>]&nbsp;[<a id="pro-head-quit" href="javascript:void(0)">退出</a>][<a href="/user/changeUserPassword.php">修改密码</a>]
+			<?php
+		}else{
+			?>
+		[<a href="/user/load.php">登录</a>]&nbsp;[<a href="/user/register.php">注册</a>]
+		<?php
+	  }
+	   ?>
+		</div>
+		<div class="hb_flower"></div>
+		<!--nivo slider-->
+    	<div id="wrapper" style="width:1089px;height:342px; position:absolute; left:49px; top:106px;">
+        	<div class="theme-orman">
+            	<div id="slider" class="nivoSlider">
+				<?php foreach($imgs as $item){?>
+					<a href="#"><img src="<?php echo $virtualRootPath.$item['href'];?>" /></a>
+				<?php }?>
+                	<!--<a href="#"><img src="../shop-images/product-pic1.png" alt="" /></a>
+                	<a href="#"><img src="../shop-images/product-pic2.png" alt="" /></a>
+					<a href="http://www.4399.com"><img src="../shop-images/product-pic1.png" alt="" title="这里显示信息" /></a>-->
+				</div>
+        	</div>
+    	</div>
+		
+    	<script type="text/javascript">
+    		$(window).load(function() {
+        	$('#slider').nivoSlider();			
+    	});
+		
+    	</script>
+		<!--nivo slider end-->
+		</div><!--shop_banner-->
+</div><!--shop_banner_full-->

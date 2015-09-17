@@ -1,0 +1,23 @@
+@charset "utf-8";
+* { word-wrap: break-word; }
+a{text-decoration:none;color:#FFF;}
+a:hover{text-decoration:underline;color:#F00}
+body{font-family:"微软雅黑", "宋体", arial, verdana, sans-serif;font-size:12px;color:#000;margin:0;}
+
+.top_full{background:url(../images/bg-top.jpg) no-repeat center top;height:565px;}
+.doc_full{background-color:#0268e6;}
+.doc_full .doc{width:1176px;background-color:#FFF;margin:0 auto;padding:50px 0;}
+.doc .left_list{width:177x;height:auto;padding:36px 0px 0px 68px;float:left;font-size:13px;}
+.left_list ul{padding:14px 6px;margin:0;list-style-position: inside;list-style-type: disc;background-color:#f0eeee;}
+.left_list ul li{margin:0;padding:1px;width:166px;height:38px;line-height:38px;overflow:hidden;border-bottom:1px dotted  #999;}
+.left_list ul li a{color:#000;}
+.doc .content{width:803px;overflow:hidden;padding-left:83px;letter-spacing:1px;font-size:14px;}
+.content .rl_ti{font-size:16px;}
+.content .rl_word a{color:#000;}
+.content .cnt_title{text-align:center;font-size:30px;font-weight: bold;}
+.content .cnt_author{color:#666;line-height:30px;text-align:center;}
+.cnt_author span{padding-right:10px;}
+.content .cnt_abstract{background-color:#f0eeee;line-height:20px;padding:5px 0;}
+.cnt_abstract span{color:#FF0000;}
+.product_full2{background:url(../images/bg-bottom.jpg) no-repeat center top;}
+.bottom_full{height:137px;background:url(../images/bg-bottom2.jpg) no-repeat center top;}

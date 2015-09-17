@@ -1,0 +1,120 @@
+[13-Jul-2015 23:25:06 Asia/Chongqing] PHP Warning:  require_once(C:/Apache24/htdocs/htdocs/lib/model/home.model.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:25:06 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'C:/Apache24/htdocs/htdocs/lib/model/home.model.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:32:26 Asia/Chongqing] PHP Warning:  require_once(C:/Apache24/htdocs/htdocs/lib/model/home.model.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:32:26 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'C:/Apache24/htdocs/htdocs/lib/model/home.model.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:32:52 Asia/Chongqing] PHP Warning:  require_once(C:/Apache24/htdocs/htdocs/lib/model/home.model.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:32:52 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'C:/Apache24/htdocs/htdocs/lib/model/home.model.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:49:04 Asia/Chongqing] PHP Warning:  require_once(C:/Apache24/htdocs/htdocs/lib/model/home.model.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:49:04 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'C:/Apache24/htdocs/htdocs/lib/model/home.model.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:49:05 Asia/Chongqing] PHP Warning:  require_once(C:/Apache24/htdocs/htdocs/lib/model/home.model.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:49:05 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'C:/Apache24/htdocs/htdocs/lib/model/home.model.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:49:11 Asia/Chongqing] PHP Warning:  require_once(C:/Apache24/htdocs/htdocs/lib/model/home.model.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:49:11 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'C:/Apache24/htdocs/htdocs/lib/model/home.model.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\admin\home\index.php on line 6
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:27 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[13-Jul-2015 23:54:39 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:32:54 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:10 Asia/Chongqing] PHP Notice:  Undefined index: imgCat in C:\Apache24\htdocs\admin\home\upload.php on line 59
+[14-Jul-2015 00:33:10 Asia/Chongqing] PHP Notice:  Undefined index: imgCat in C:\Apache24\htdocs\admin\home\upload.php on line 60
+[14-Jul-2015 00:33:10 Asia/Chongqing] PHP Notice:  Undefined index: imgCat in C:\Apache24\htdocs\admin\home\upload.php on line 61
+[14-Jul-2015 00:33:10 Asia/Chongqing] PHP Notice:  Undefined index: imgCat in C:\Apache24\htdocs\admin\home\upload.php on line 70
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:33:33 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 00:41:20 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:22:15 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 01:25:25 Asia/Chongqing] PHP Notice:  Undefined offset: 0 in C:\Apache24\htdocs\admin\home\index.php on line 143
+[14-Jul-2015 23:50:39 Asia/Chongqing] PHP Notice:  Undefined index: HTTP_ROOT in C:\Apache24\htdocs\lib\web.config.php on line 3
+[14-Jul-2015 23:50:39 Asia/Chongqing] PHP Notice:  Undefined index: HTTP_ROOT in C:\Apache24\htdocs\lib\web.config.php on line 5

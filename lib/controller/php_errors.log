@@ -1,0 +1,17 @@
+[05-Jul-2015 13:57:31 Asia/Chongqing] PHP Notice:  Undefined index: article_catID in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 13:57:31 Asia/Chongqing] PHP Notice:  Undefined index: label in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 13:57:31 Asia/Chongqing] PHP Notice:  Undefined index: title in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 13:57:31 Asia/Chongqing] PHP Notice:  Undefined index: content in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 13:57:41 Asia/Chongqing] PHP Notice:  Undefined index: article_catID in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 13:57:41 Asia/Chongqing] PHP Notice:  Undefined index: label in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 13:57:41 Asia/Chongqing] PHP Notice:  Undefined index: title in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 13:57:41 Asia/Chongqing] PHP Notice:  Undefined index: content in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 14:02:48 Asia/Chongqing] PHP Notice:  Undefined index: parentName in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 14:02:53 Asia/Chongqing] PHP Notice:  Undefined index: parentName in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 14:06:10 Asia/Chongqing] PHP Notice:  Undefined index: parentName in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 14:08:53 Asia/Chongqing] PHP Notice:  Undefined index: parentName in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[05-Jul-2015 19:14:57 Asia/Chongqing] PHP Notice:  Undefined index: idArray in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 131
+[05-Jul-2015 20:13:58 Asia/Chongqing] PHP Notice:  Undefined index: idArray in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 131
+[05-Jul-2015 20:14:03 Asia/Chongqing] PHP Notice:  Undefined index: idArray in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 131
+[12-Jul-2015 16:56:42 Asia/Chongqing] PHP Notice:  Undefined index: _desc in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124
+[12-Jul-2015 16:58:18 Asia/Chongqing] PHP Notice:  Undefined index: _desc in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 124

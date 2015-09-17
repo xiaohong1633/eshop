@@ -1,0 +1,18 @@
+@charset "utf-8";
+.main .left_list{width:178px;position:absolute;top:60px;left:68px;background-color:#f0eeee;}
+.left_list ul{padding:14px 6px;margin:0;list-style-position: inside;list-style-type: disc;}
+.left_list ul li{margin:0;padding:1px;width:166px;height:38px;line-height:38px;overflow:hidden;border-bottom:1px dotted  #999;}
+.left_list ul li a{color:#000;}
+.main .right_list{width:803px;height:665px;position:absolute;top:60px;left:328px;}
+.right_list .rl_title{width:803px;height:36px;}
+.rl_title .rl_ti{position:absolute; top:2px; left:55px; font-size:16px;}
+.rl_title .rl_line{position:absolute; top:16px; left:54px; width:747px; height:1px; border-width:0;color:#AEB1AE; background-color:#AEB1AE;}
+.rl_title .rl_cloud{position:absolute; top:10px;}
+.rl_title .rl_word{position:absolute; top:2px; left:135px;font-size:16px;}
+.rl_title .rl_word a{color:#000;}
+.right_list ul{margin:0; padding:2px; width: 803px; height:90%;list-style-type: disc;list-style-position: inside;}
+.right_list ul li{border-bottom:1px dotted #ccc;width:711px;height:25px; padding-top:15px; padding-left:42px; float:left; font-size:15px;}
+.right_list ul li a{color:#000;}
+.right_list ul li span{width:100px;height:25px;overflow:hidden;float:right;}
+.right_list .rl_page{text-align:center; width:711px; margin:0; font-size:14px;}
+.rl_page a{color:#000;padding-right:10px;}

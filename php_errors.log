@@ -1,0 +1,22 @@
+[12-Jul-2015 15:57:15 Asia/Chongqing] PHP Parse error:  syntax error, unexpected 'functon' (T_STRING), expecting variable (T_VARIABLE) in C:\Apache24\htdocs\lib\model\article.model.php on line 24
+[12-Jul-2015 15:57:32 Asia/Chongqing] PHP Fatal error:  Call to undefined method Article::getAricleInfos() in C:\Apache24\htdocs\index.php on line 7
+[12-Jul-2015 15:57:48 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch() on boolean in C:\Apache24\htdocs\lib\model\Model.php on line 18
+[12-Jul-2015 15:58:56 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch() on boolean in C:\Apache24\htdocs\lib\model\Model.php on line 18
+[12-Jul-2015 16:04:25 Asia/Chongqing] PHP Parse error:  syntax error, unexpected end of file in C:\Apache24\htdocs\index.php on line 309
+[12-Jul-2015 16:07:26 Asia/Chongqing] PHP Notice:  Undefined index: updateTime in C:\Apache24\htdocs\index.php on line 138
+[12-Jul-2015 16:07:26 Asia/Chongqing] PHP Notice:  Undefined index: updateTime in C:\Apache24\htdocs\index.php on line 138
+[12-Jul-2015 16:07:26 Asia/Chongqing] PHP Notice:  Undefined index: updateTime in C:\Apache24\htdocs\index.php on line 138
+[12-Jul-2015 16:07:26 Asia/Chongqing] PHP Notice:  Undefined index: updateTime in C:\Apache24\htdocs\index.php on line 138
+[12-Jul-2015 17:13:13 Asia/Chongqing] PHP Notice:  Undefined index: _desc in C:\Apache24\htdocs\index.php on line 124
+[12-Jul-2015 17:48:02 Asia/Chongqing] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in C:\Apache24\htdocs\lib\model\article.model.php on line 30
+[13-Jul-2015 23:27:02 Asia/Chongqing] PHP Parse error:  syntax error, unexpected 'as' (T_AS) in C:\Apache24\htdocs\test.php on line 2
+[15-Jul-2015 11:49:21 Asia/Chongqing] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in C:\Apache24\htdocs\lib\web.config.php on line 3
+[15-Jul-2015 11:49:27 Asia/Chongqing] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in C:\Apache24\htdocs\lib\web.config.php on line 3
+[15-Jul-2015 11:51:04 Asia/Chongqing] PHP Warning:  require_once(../admin/web.config.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 11:51:04 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required '../admin/web.config.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 11:51:31 Asia/Chongqing] PHP Warning:  require_once(../admin/web.config.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 11:51:31 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required '../admin/web.config.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 11:52:36 Asia/Chongqing] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in C:\Apache24\htdocs\admin\web.config.php on line 3
+[15-Jul-2015 11:53:18 Asia/Chongqing] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in C:\Apache24\htdocs\admin\web.config.php on line 18
+[15-Jul-2015 11:57:17 Asia/Chongqing] PHP Warning:  require_once(../admin/web.config.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 11:57:17 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required '../admin/web.config.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\common\head.html on line 2

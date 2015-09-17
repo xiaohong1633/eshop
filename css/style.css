@@ -1,0 +1,9 @@
+@charset "utf-8";
+* {word-wrap:break-word;}
+a{text-decoration:none;color:#FFF;}
+a:hover{text-decoration:underline;color:#F00}
+a img {border:none;}
+img{border:none;}
+body{font-family:"微软雅黑","宋体", arial, verdana, sans-serif;font-size:14px;color:#000;margin:0;}
+hr {color:#AEB1AE;height:1px;border-width:0;background-color:#AEB1AE;}
+ul{list-style:none;}

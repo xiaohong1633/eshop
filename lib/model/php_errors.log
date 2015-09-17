@@ -1,0 +1,2 @@
+[05-Jul-2015 13:06:30 Asia/Chongqing] PHP Notice:  Undefined variable: categoryPro in C:\Apache24\htdocs\lib\model\categoryPro.model.php on line 19
+[05-Jul-2015 13:06:30 Asia/Chongqing] PHP Fatal error:  Call to a member function getName() on null in C:\Apache24\htdocs\lib\model\categoryPro.model.php on line 19

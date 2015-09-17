@@ -1,0 +1,16 @@
+[12-Jul-2015 17:47:38 Asia/Chongqing] PHP Parse error:  syntax error, unexpected '/' in C:\Apache24\htdocs\content\doc-content.php on line 95
+[12-Jul-2015 17:49:37 Asia/Chongqing] PHP Parse error:  syntax error, unexpected '/' in C:\Apache24\htdocs\content\doc-content.php on line 95
+<<<<<<< HEAD
+[14-Jul-2015 23:28:26 Asia/Chongqing] PHP Notice:  Undefined index: id in C:\Apache24\htdocs\content\doc-content.php on line 4
+=======
+[15-Jul-2015 01:57:02 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch() on boolean in C:\Apache24\htdocs\lib\model\Model.php on line 105
+[15-Jul-2015 01:57:32 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch() on boolean in C:\Apache24\htdocs\lib\model\Model.php on line 105
+>>>>>>> 08b048cc6fdfe58a633cb1876ee02e7e393a5e4e
+[15-Jul-2015 11:53:40 Asia/Chongqing] PHP Warning:  require_once(./admin/web.config.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 11:53:40 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required './admin/web.config.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 11:59:49 Asia/Chongqing] PHP Warning:  require_once(./admin/web.config.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 11:59:49 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required './admin/web.config.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 12:03:41 Asia/Chongqing] PHP Warning:  dir(C:\Apache24\htdocs\common\head.html,C:\Apache24\htdocs\common\head.html):  in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 12:03:41 Asia/Chongqing] PHP Warning:  dir(C:\Apache24\htdocs\common\head.html): failed to open dir: No such file or directory in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 12:04:30 Asia/Chongqing] PHP Warning:  require_once(C:\Apache24\htdocs\common../admin/web.config.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\common\head.html on line 2
+[15-Jul-2015 12:04:30 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'C:\Apache24\htdocs\common../admin/web.config.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\common\head.html on line 2

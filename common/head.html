@@ -1,0 +1,44 @@
+<?php
+require_once(dirname(__FILE__)."/../admin/web.config.php");
+require_once($realLibPath."model/navMenu.model.php");
+$navMenu = new NavMenu();
+?>
+<!--script type="text/javascript" src="../js/jquery-1.6.1.min.js"></script-->
+<script type="text/javascript">
+$(function(){
+	function generateNavMenu(){
+		$("#pro_linedrop").empty();
+		$("<?php echo $navMenu->generateMenuHtml();?>").appendTo($("#pro_linedrop"));	
+	}
+	generateNavMenu();	
+});
+</script>
+<!-- 头部，无用 -->
+<div class="head_full">
+</div>
+<!-- 标题 + logo + banner部分 -->
+<div class="title_full">
+	<div class="title">
+		<a href="../" target="_self" class="title_logo"><img src="../images/logo_l.png" alt="logo" /></a>
+		<div class="title_title">
+		<img src="../images/website_title.png" alt="奇圣电商" /></div>
+		<div id="pro_linedrop">
+			<ul class="select">
+				<!--<li><a class="left" href="http://sincol.net/"><span class="daohang_word">网站首页</span></a>
+					<ul class="sub">
+						<li><a href="http://sincol.net/photo/png/index.html"><span class="down_word">进入首页</span></a></li>
+						<li><a href="http://sincol.net/photo/gif/index.html"><span class="down_word">进入首页</span></a></li>
+					</ul>
+				</li>
+				<li><a class="middle" href="http://sincol.net/"><span class="daohang_word">奇圣简介</span></a>				</li>
+				<li><a class="middle" href="http://sincol.net/"><span class="daohang_word">进入商城</span></a>				</li>
+				<li><a class="middle" href="http://sincol.net/"><span class="daohang_word">资讯中心</span></a>
+					<ul class="sub">
+						<li><a href="http://sincol.net/"><span class="down_word">公司新闻</span></a></li>
+						<li><a href="http://sincol.net/"><span class="down_word">行业资讯</span></a></li>
+					</ul>
+				</li>-->
+			</ul>
+		</div>
+  </div>
+</div>

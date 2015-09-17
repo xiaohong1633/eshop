@@ -1,0 +1,29 @@
+<?php
+	require_once(dirname(__FILE__)."/../admin/web.config.php");
+	require_once($realLibPath."model/v_images.model.php");
+	$img = new VImages();
+	$imgs=$img->query(array('status'=>'Y','imgCat'=>'sphdp'),array('href'));
+?>
+<script src="../js/jquery.autoimg.js"></script>
+<!-- banner slide-->
+<div class="slide_full">
+<div class="slide">
+<div class="autoimg">
+	<div class="parentdiv"> </div>
+	<ul class="imglist">
+	<?php 
+		foreach($imgs as $item){		
+	?>
+		<li><img src="<?php echo $virtualRootPath.$item['href'];?>" /></li>    	
+	<?php
+	}
+	?>
+  	</ul>
+  	<div class="clearboth"></div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+	$(".autoimg").autoimg();
+</script>
+<!-- banner slide end -->

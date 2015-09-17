@@ -1,0 +1,28 @@
+@charset "utf-8";
+.user_info_full{background-color:#0268e6;}
+.user_info_full .user_info{width:1176px;background-color:#FFF;margin:0 auto;padding:50px 0;}
+.user_info{font-size:16px;}
+.user_info a{color:#000; text-decoration:none;}
+.user_info a:hover{color:#FF0000;}
+		
+#user_info_left{width:120px; float:left; margin:-20px 0 0 15px;}
+#user_info_left ul{margin:0;}
+#user_info_left ul li{border-bottom:1px solid #CCC; text-align:center; padding-top:20px;}
+		
+#user_info_main{margin-left:253px; margin-right:103px;}
+#user_info_main .ui_ti{font-size:18px; font-weight:bold; font-style:italic;}
+#user_info_main .ui_group{padding-top:10px;}
+#user_info_main .user_info_tabs{margin:0; padding-left:50px;}
+.ui_group .ui_table{border-collapse:collapse;font-size:14px;}
+.ui_table a{color:#0000FF;}
+#user_info_message ul{font-size:14px;}
+#user_info_message ul li{border:1px solid;width:600px;margin-top:20px;}
+#user_info_message ul li .uim_user_header{padding:10px 0;}
+#user_info_message ul li .uim_user_word{padding:10px 0;margin-left:20px;}
+#user_info_message ul li .uim_adm_header{color:#FF0000;padding:10px 0;border-top:1px solid #CCC;}
+#user_info_message ul li .uim_adm_word{margin-left:20px;padding:10px 0;}
+#user_info_message ul li a{color:#0000FF; float:right;}
+#user_info_message ul li a:hover{color:#FF0000;}
+
+.top_full{background:url(../images/bg-top.jpg) no-repeat center top;height:565px;}
+.tail_full{height:277px;background-color:#0268e6;}

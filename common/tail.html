@@ -1,0 +1,36 @@
+<!-- 底部 -->
+<?php
+$a=dirname(__FILE__);
+$b=explode("\\",$a);
+//echo($b[count($b)-1]);
+require_once(dirname(__FILE__)."/../lib/web.config.php");
+require_once($realLibPath."model/home.model.php");
+$homes=new Home();
+$home=$homes->getHome();
+
+
+?>
+<div class="bottom_full">
+	<div class="bottom">
+		<div class="bottom_top"></div>
+		<div class="bottom_logo">
+		<img src="../images/logo_s.png" alt="logo" />		</div>
+		<div class="bottom_text1">
+		  <p>公司地址：<?php echo $home['address'];?></p>
+		  <p>邮编：<?php echo $home["QQNumber"]?></p>
+		  <p>服务热线：<?php echo $home["telephone"]?></p>
+		</div>
+		<div class="bottom_links">
+		<ul>
+			<li><a href="#">设为首页</a></li>
+			<li><a href="#" target="_blank">加入收藏</a></li>
+			<li><a href="#top" target="_self">返回顶部</a></li>
+			<li><a href="#" target="_blank">招聘加盟</a></li>
+		</ul>
+	  </div>
+		<div class="bottom_text2">
+			<p>Copyrights © 2015 All Rights Reserved</p>
+			<p><?php echo $home["label"]?> </p>
+		</div>
+	</div>
+</div>

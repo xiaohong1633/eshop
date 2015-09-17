@@ -1,0 +1,59 @@
+<?php		
+	require_once(dirname(__FILE__)."/../admin/web.config.php");
+	require_once($realLibPath."model/product.model.php");
+	require_once($realLibPath."model/images.model.php");
+	$pro = new Product(); 
+	$rxPro = $pro->getFirstNum(6);
+?>        
+<div class="scroll_full">
+<div class="scroll">
+	<div class="products_pic">
+			<div class="products_top">
+				<div class="products_title"><a href="#">购物中心</a></div>
+				<div class="products_line"><img class=".products_line" src="../images/products_top.png" alt="" /></div>		
+			</div>
+			<div class="products_mid">
+				<div id="demo">
+					<div id="indemo">
+						<div id="demo1">
+							<ul style="margin:0; padding:0;">
+							<?php
+								foreach($rxPro as $itemrx){
+									$rximgs = new Images();
+									$rximgdata=current($rximgs->query(array("status"=>"Y","ID"=>$itemrx['defaultImg']),array()));
+									$rximghref = $rximgdata['href'];
+							?>
+								<li><a href="<?php echo $virtualRootPath.'shop/shop-info.php?id='.$itemrx['ID'];	?>"><img src="<?php echo $virtualRootPath.$rximghref;?>" /></a> <a href="#"><?php echo $itemrx['name'];?></a></li>								
+							<?php
+								}
+							?>
+							</ul>
+						</div>
+					<div id="demo2"></div>
+				</div>
+			</div>
+		  </div>	
+			<div class="products_bottom">
+				<img src="../images/products_bottom.png" alt="" />			</div>
+		</div>
+	<!--products_pic-->
+</div>
+</div>
+
+<script>
+var speed=5;
+var tab=document.getElementById('demo');
+var tab1=document.getElementById('demo1');
+var tab2=document.getElementById('demo2');
+tab2.innerHTML=tab1.innerHTML;
+function Marquee(){
+if(tab2.offsetWidth-tab.scrollLeft<=0)
+tab.scrollLeft-=tab1.offsetWidth
+else{
+tab.scrollLeft++;
+}
+}
+var MyMar=setInterval(Marquee,speed);
+tab.onmouseover=function() {clearInterval(MyMar)};
+tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+</script>

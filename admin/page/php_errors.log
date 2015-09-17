@@ -1,0 +1,23 @@
+[05-Jul-2015 11:21:12 Asia/Chongqing] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in C:\Apache24\htdocs\lib\model\Model.php:10
+Stack trace:
+#0 C:\Apache24\htdocs\lib\model\Model.php(10): PDO->__construct('mysql:host=192....', 'root', '123')
+#1 C:\Apache24\htdocs\lib\model\page.model.php(14): Model->__construct('page', Object(PageSql))
+#2 C:\Apache24\htdocs\admin\page\index.php(6): Page->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\lib\model\Model.php on line 10
+[05-Jul-2015 11:21:33 Asia/Chongqing] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+' in C:\Apache24\htdocs\lib\model\Model.php:10
+Stack trace:
+#0 C:\Apache24\htdocs\lib\model\Model.php(10): PDO->__construct('mysql:host=192....', 'root', '123')
+#1 C:\Apache24\htdocs\lib\model\page.model.php(14): Model->__construct('page', Object(PageSql))
+#2 C:\Apache24\htdocs\admin\page\index.php(6): Page->__construct()
+#3 {main}
+  thrown in C:\Apache24\htdocs\lib\model\Model.php on line 10
+[05-Jul-2015 11:54:42 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch() on boolean in C:\Apache24\htdocs\lib\model\Model.php on line 94
+[05-Jul-2015 13:13:57 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch() on boolean in C:\Apache24\htdocs\lib\model\Model.php on line 94
+[12-Jul-2015 12:19:13 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch() on boolean in C:\Apache24\htdocs\lib\model\Model.php on line 18
+[12-Jul-2015 16:44:56 Asia/Chongqing] PHP Notice:  Undefined index: desc in C:\Apache24\htdocs\admin\page\edit.php on line 40
+[12-Jul-2015 17:08:37 Asia/Chongqing] PHP Parse error:  syntax error, unexpected ')' in C:\Apache24\htdocs\lib\model\page.model.php on line 38
+[13-Jul-2015 23:24:06 Asia/Chongqing] PHP Warning:  require_once(C:/Apache24/htdocs/htdocs/lib/model/page.model.php): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\page\index.php on line 3
+[13-Jul-2015 23:24:06 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'C:/Apache24/htdocs/htdocs/lib/model/page.model.php' (include_path='.;C:\php\pear') in C:\Apache24\htdocs\admin\page\index.php on line 3

@@ -1,0 +1,27 @@
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Learning</title>
+		<link rel="stylesheet" type="text/css" href="table.css" />
+		<script type='text/javascript' src="jquery-1.11.2.min.js"></script>
+		<script type='text/javascript' src='table.js'></script>
+		<script>
+			$(function(){
+var data='[{"bxd_id":"20150331095013","bxd_emp_id":"9","bxd_amount":"16","bxd_bg_time":"2015-03-31 09:50:13","bxd_bxlb_id":"1","bxd_project_id":"20150326105056","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u6838\u5bf9\u4e2d"},{"bxd_id":"20150331094855","bxd_emp_id":"9","bxd_amount":"15","bxd_bg_time":"2015-03-31 09:48:55","bxd_bxlb_id":"1","bxd_project_id":"20150326105056","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u6838\u5bf9\u4e2d"},{"bxd_id":"20150330180553","bxd_emp_id":"9","bxd_amount":"50","bxd_bg_time":"2015-03-30 18:05:53","bxd_bxlb_id":"1","bxd_project_id":"20150309175606","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u6838\u5bf9\u4e2d"},{"bxd_id":"20150330180521","bxd_emp_id":"9","bxd_amount":"20","bxd_bg_time":"2015-03-30 18:05:21","bxd_bxlb_id":"1","bxd_project_id":"20150309175606","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u6838\u5bf9\u4e2d"},{"bxd_id":"20150330180441","bxd_emp_id":"9","bxd_amount":"20","bxd_bg_time":"2015-03-30 18:04:41","bxd_bxlb_id":"1","bxd_project_id":"20150309175606","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u6838\u5bf9\u4e2d"},{"bxd_id":"20150330180403","bxd_emp_id":"9","bxd_amount":"41","bxd_bg_time":"2015-03-30 18:04:03","bxd_bxlb_id":"1","bxd_project_id":"20150309175606","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u6838\u5bf9\u4e2d"},{"bxd_id":"20150330180313","bxd_emp_id":"9","bxd_amount":"20","bxd_bg_time":"2015-03-30 18:03:13","bxd_bxlb_id":"1","bxd_project_id":"20150309175606","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u6838\u5bf9\u4e2d"},{"bxd_id":"20150330180106","bxd_emp_id":"9","bxd_amount":"40","bxd_bg_time":"2015-03-30 18:01:06","bxd_bxlb_id":"1","bxd_project_id":"20150309175606","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u6838\u5bf9\u4e2d"},{"bxd_id":"20150323113455","bxd_emp_id":"9","bxd_amount":"517.5","bxd_bg_time":"2015-03-23 11:34:55","bxd_bxlb_id":"1","bxd_project_id":"20150309175606","bxd_dept_id":null,"bxd_notes":"","bxd_emp":"\u5f20\u52e4\u9e4f","bxd_bxlb":"\u9879\u76ee\u62a5\u9500","sp_result":"\u5ba1\u6279\u901a\u8fc7"}]';
+var head=['报销单号','报销人','报销金额','申请日期','报销类别','报销状态'];
+var field=['bxd_id','bxd_emp','bxd_amount','bxd_bg_time','bxd_bxlb','sp_result'];
+var table=$.table("#testTable",'测试',head,field,data);
+table.setTitle("hello world");
+table.addColumn(1,"测试","test");
+table.fillColumn("test","test");
+table.display();
+});
+		</script>
+		<style type="text/css" >
+		</style>
+	</head>
+		<div id='testTable'></table>
+	<body>
+	</body>
+</html>

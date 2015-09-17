@@ -1,0 +1,97 @@
+@charset "utf-8";
+#shopmenu {
+padding: 0;
+margin:0;
+font-family:"方正黑体简体","宋体", arial, verdana, sans-serif; 
+z-index:500;
+
+width:770px;
+height:40px;/*122*/
+position:absolute;
+top:23px;
+left:32px;
+}
+
+#shopmenu .select {
+margin:0; 
+padding:0; 
+list-style:none; 
+}
+
+#shopmenu li {
+float:left;
+}
+
+#shopmenu .select a {
+display:block; 
+height:30px;
+width:125px;
+float:left; 
+text-decoration:none;
+text-align:center;
+padding-top:10px;
+white-space:nowrap; 
+font-size:16px;
+color:#FFF;
+}
+
+#shopmenu.select a.left {background:url(../shop-images/menu-button.png) no-repeat left top;}
+#shopmenu .select a.middle {background:url(../shop-images/menu-button.png) no-repeat left top;}
+#shopmenu .select a.right {background:url(../shop-images/menu-button.png) no-repeat left top;}
+
+#shopmenu .select a:hover, 
+#shopmenu .select li:hover a {
+background-position: left bottom; 
+cursor:pointer; 
+}
+#shopmenu .sub {
+display:none;
+}
+#shopmenu ul ul {display:none;}
+
+/* IE6 only */
+#shopmenu table {
+border-collapse:collapse; 
+margin:-1px; 
+font-size:1em; 
+width:0; 
+height:0;
+}
+
+#shopmenu .sub {
+margin:0; 
+padding:0;
+list-style:none;
+}
+
+#shopmenu .sub li {background:transparent; height:40px; line-height:40px}
+
+#shopmenu .select :hover .sub {
+display:block; 
+position:absolute;
+width:99px;
+top:37px;
+padding-left:14px;
+text-align:center;
+}
+
+#shopmenu .select :hover .sub li
+{background-color:#009933; width:99px; height:40px; border-bottom:1px solid #CCC;}
+
+
+#shopmenu .select :hover .sub li a{
+width:99px;
+	padding:0;
+	margin:0;
+	font-size:15px; 
+	color:#FFF;
+	text-align:center;
+}
+
+#shopmenu .select :hover .sub li a:hover{
+color:#FF0000;
+}
+
+#shopmenu .sub2 {
+display:none;
+}

@@ -1,0 +1,21 @@
+[14-Jul-2015 23:25:20 Asia/Chongqing] PHP Notice:  Undefined index: file in C:\Apache24\htdocs\admin\images\upload.php on line 41
+[14-Jul-2015 23:26:44 Asia/Chongqing] PHP Notice:  Undefined index: file in C:\Apache24\htdocs\admin\images\upload.php on line 42
+[15-Jul-2015 00:01:49 Asia/Chongqing] PHP Fatal error:  Access to undeclared static property: Table::$imageinfo in C:\Apache24\htdocs\lib\Sqlhelper\SqlHelper.php on line 27
+[15-Jul-2015 00:31:12 Asia/Chongqing] PHP Notice:  Undefined offset: 2 in C:\Apache24\htdocs\admin\images\index.php on line 36
+[15-Jul-2015 00:31:12 Asia/Chongqing] PHP Notice:  Undefined offset: 2 in C:\Apache24\htdocs\admin\images\index.php on line 36
+[15-Jul-2015 00:31:12 Asia/Chongqing] PHP Notice:  Undefined offset: 2 in C:\Apache24\htdocs\admin\images\index.php on line 37
+[15-Jul-2015 00:32:00 Asia/Chongqing] PHP Notice:  Undefined offset: 2 in C:\Apache24\htdocs\admin\images\index.php on line 36
+[15-Jul-2015 00:32:00 Asia/Chongqing] PHP Notice:  Undefined offset: 2 in C:\Apache24\htdocs\admin\images\index.php on line 37
+[15-Jul-2015 00:36:07 Asia/Chongqing] PHP Notice:  Undefined variable: result in C:\Apache24\htdocs\admin\images\index.php on line 8
+[15-Jul-2015 00:36:55 Asia/Chongqing] PHP Parse error:  syntax error, unexpected '=' in C:\Apache24\htdocs\admin\images\index.php on line 32
+[15-Jul-2015 00:54:03 Asia/Chongqing] PHP Parse error:  syntax error, unexpected '}' in C:\Apache24\htdocs\admin\images\upload.php on line 66
+[15-Jul-2015 00:56:50 Asia/Chongqing] PHP Warning:  move_uploaded_file(/admin/images/Chrysanthemum.jpg): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\images\upload.php on line 54
+[15-Jul-2015 00:56:50 Asia/Chongqing] PHP Warning:  move_uploaded_file(): Unable to move 'C:\Windows\Temp\php83C8.tmp' to '/admin/images/Chrysanthemum.jpg' in C:\Apache24\htdocs\admin\images\upload.php on line 54
+[15-Jul-2015 01:00:28 Asia/Chongqing] PHP Warning:  dir(C:\Apache24\htdocs\admin\images\upload.php,C:\Apache24\htdocs\admin\images\upload.php):  in C:\Apache24\htdocs\admin\images\upload.php on line 52
+[15-Jul-2015 01:00:28 Asia/Chongqing] PHP Warning:  dir(C:\Apache24\htdocs\admin\images\upload.php): failed to open dir: No such file or directory in C:\Apache24\htdocs\admin\images\upload.php on line 52
+[15-Jul-2015 01:01:16 Asia/Chongqing] PHP Warning:  dir(C:\Apache24\htdocs\admin\images\upload.php,C:\Apache24\htdocs\admin\images\upload.php):  in C:\Apache24\htdocs\admin\images\upload.php on line 52
+[15-Jul-2015 01:01:16 Asia/Chongqing] PHP Warning:  dir(C:\Apache24\htdocs\admin\images\upload.php): failed to open dir: No such file or directory in C:\Apache24\htdocs\admin\images\upload.php on line 52
+[15-Jul-2015 01:01:16 Asia/Chongqing] PHP Warning:  move_uploaded_file(/../res/images/Chrysanthemum.jpg): failed to open stream: No such file or directory in C:\Apache24\htdocs\admin\images\upload.php on line 54
+[15-Jul-2015 01:01:16 Asia/Chongqing] PHP Warning:  move_uploaded_file(): Unable to move 'C:\Windows\Temp\php92A8.tmp' to '/../res/images/Chrysanthemum.jpg' in C:\Apache24\htdocs\admin\images\upload.php on line 54
+[15-Jul-2015 12:15:09 Asia/Chongqing] PHP Notice:  Undefined index: upimg in C:\Apache24\htdocs\admin\images\upload.php on line 7
+[15-Jul-2015 12:15:10 Asia/Chongqing] PHP Notice:  Undefined index: upimg in C:\Apache24\htdocs\admin\images\upload.php on line 44

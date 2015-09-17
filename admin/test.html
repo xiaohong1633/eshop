@@ -1,0 +1,135 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title>test页面</title>
+    <link rel="stylesheet" href="res/AmazeUI/css/amazeui.min.css" />
+    <!--[if lt IE 9]>
+    <script src="res/jquery-1.11.3.min.js"></script>
+    <script src="res/AmazeUI/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="res/jquery-2.1.4.min.js"></script>
+    <!--<![endif]-->
+    <script src="res/AmazeUI/js/amazeui.min.js"></script>
+    <style>
+        /*
+        ul{
+            list-style:none;
+            padding:5px;
+        }
+        ul>li{
+            float:left;
+            margin:10px;
+
+        }*/
+        li{
+            float:left;
+            margin:5px;
+        }
+        li span{
+            position:absolute;
+            left:70px;
+            top:70px;
+        }
+        li img{
+            width:90px;
+            height:90px;
+        }
+        li:hover{
+            border:1px solid blue;
+        }
+        li
+    </style>
+</head>
+<body>
+    <button id="test" class="am-btn am-btn-default">test</button>
+    <div id="modal" class="am-modal">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">
+                图片管理
+                <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+            </div>
+            <div class="am-modal-bd">
+                <div class="am-tabs am-active" data-am-tabs="{noSwipe:1}">
+                    <ul class="am-tabs-nav am-nav am-nav-tabs">
+                        <li><a href="#tab1">本地图片</a></li>
+                        <li><a href="#tab2">在线图片</a></li>
+                    </ul>
+                    <div class="am-tabs-bd">
+                        <div class="am-tab-panel" id="tab1">
+                            <input id="widget_realFile" class="am-btn am-btn-primary am-hide" type="file" />
+                            <input id="widget_displayFile" class="am-u-sm-9" type="text" />
+                            <button id="widget_uploadPicture" class="am-btn am-btn-primary am-u-sm-3">点击上传图片</button>
+                            <img id="widget_displayImage" src="C:\Users\Public\Pictures\Sample Pictures\菊花.jpg" style="width:90px;height:90px">
+                        </div>
+                        <div class="am-tab-panel am-padding-2 am-margin-2" id="tab2">
+                            <input id="widget_onlineName" type="text" class="am-modal-prompt-input am-hide" />
+                            <ul class="am-list am-scrollable-vertical">
+                                <li>
+                                <img src="res/images/pro.png" />
+                                    <span class="am-icon-check"></span>
+                                </li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                                <li><a class="am-padding-0" href="#"><img src="res/images/pro.png" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $("#test").click(function () {
+            $("#modal").modal({
+                relatedTarget: this,
+                width:670,
+                closeViaDimmer: 0,
+                onConfirm: function (e) {
+                    alert(e.data);
+                },
+                onCancel: function (e) {
+                    alert(e.data);
+                }
+            });
+        })
+        $("#widget_realFile").change(function (e) {
+            //alert($(this).val());
+            $("#widget_displayFile").val($(this).val());
+            $("#widget_displayImage").attr("src", $(this).val());
+        })
+        $("#widget_uploadPicture").click(function(){
+            $("#widget_realFile").click();
+            //$("#widget_displayFile").val($("#widget_realFile").val());
+        })
+        $("li").click(function () {
+            $(".am-icon-check").remove();
+            $('<span class="am-icon-check"></span>').appendTo($(this));
+            $("#widget_onlineName").val("hello world");
+        })
+    </script>
+</body>
+</html>

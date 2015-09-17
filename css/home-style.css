@@ -1,0 +1,53 @@
+@charset "utf-8";
+.main_full{height:773px;}
+.main_full .main{width:1176px;height:773px;background-color:#FFFFFF;margin-left:-588px;position:absolute;left:50%;}
+.main .company_intro{width:500px;height:330px;position:absolute;top:36px;left:39px;}
+.company_intro #int_word{width:369px;height:78px;position:absolute;left:59px;top:59px;}
+.company_intro #int_bg{width:461px;height:187px;position:absolute;left:39px;top:143px;}
+.company_intro a{font-size:15px;}
+.company_intro #int_a1{width:111px;height:23px;position:absolute;left:102px;top:53px;overflow:hidden;}
+.company_intro #int_a2{width:111px;height:23px;position:absolute;left:231px;top:53px;overflow:hidden;}
+.company_intro #int_a3{width:111px;height:23px;position:absolute;left:102px;top:116px;overflow:hidden;}
+.company_intro #int_a4{width:111px;height:23px;position:absolute;left:231px;top:115px;overflow:hidden;}
+.main .news{width:566px;height:346px;position:absolute;top:19px;left:578px;}
+
+.news #news_company{display:block;}
+.news #news_industry{display:none;}
+.news #news_line{position:absolute; top:33px; left:4px; width:559px; z-index:2;}
+.news ul{position:absolute; left:6px; top: 45px; margin:0; padding:0; width: 559px;}
+.news ul li{list-style:none;border-bottom:1px dotted #ccc;width:548px;height:25px; padding-top:15px; float:left;}
+.news ul li a{color:#000;}
+.news ul span{width:90px;height:38px;overflow:hidden;float:right;}
+.news #news_a1{position:absolute;top:311px;left:511px;}
+#news_a1 a{color:#000;}
+
+.main .products_char{width:481px;height:361px;position:absolute;top:408px;left:42px;}
+.products_char .char_title{width:481px;height:51px;}
+.products_char .char_pic{width:481px;height:310px;position:absolute;top:51px;}
+.char_pic .hidepic{display:none; position:absolute; z-index:2;}
+.char_pic .hidearrow{display:none; position:absolute; z-index:1;}
+.main .company_strength{width:531px;height:347px;position:absolute;top:419px;left:611px;}
+.company_strength .company_title{width:531px;height:52px;}
+.company_strength .company_infor{width:470px;height:284px;position:absolute;top:52px;left:37px;overflow:hidden;}
+.company_infor .cmp_pic{width:470px;height:245px;overflow:hidden;}
+.company_infor .cmp_bottom{width:470px;height:39px;}
+#cmp_piclist{width:470px; margin:0; padding:0; list-style:none; overflow:hidden;}
+#cmp_piclist li{margin:0; padding:0; list-style:none; position:absolute; left:0; top:0; display:none;}
+.cmp_bottom #cmp_arrow_left{z-index:1; position:absolute; top:252px; left:14px; cursor:pointer;}
+.cmp_bottom #cmp_arrow_right{z-index:1; position:absolute; top:252px; left:436px; cursor:pointer;}
+.cmp_bottom li{z-index:1; position:absolute; top:254px; left:36px; width:400px; height:29px; overflow:hidden; text-align:center; font-size:18px; color:#FFF; margin:0; padding:0; list-style:none; display:none;}
+
+.company_title .cmp_ti{position:absolute; top:2px; left:55px;}
+.company_title #cmp_more{position:absolute; top:3px; left:439px;}
+.company_title #cmp_more2{position:absolute;top:3px;left:397px;}
+.company_title .cmp_line{position:absolute; top:16px; left:54px; width:470px; height:1px; border-width:0;color:#AEB1AE; background-color:#AEB1AE;}/*公司实力*/
+.company_title .cmp_line2{position:absolute; top:16px; left:54px; width:420px; height:1px; border-width:0;color:#AEB1AE; background-color:#AEB1AE;}/*公司简介*/
+.company_title .cmp_cloud{position:absolute; top:10px;}
+.company_title .cmp_word{position:absolute; top:2px; left:135px; font-size:14px; color:#999999;}
+
+.news .nw_btn{width:125px;height:32px;background:url(../shop-images/menu-button.png) no-repeat left top;cursor:pointer; text-align:center; padding-top:8px; font-size:16px;color:#FFF;}
+.news .nw_button_s1{background-position:left bottom;}
+.news .nw_button_s2{top:0;left:125px;position:absolute;}
+.char_title .ct_btn{background:url(../shop-images/menu-button.png) no-repeat left top;width:125px;height:32px;text-align:center; padding-top:8px; font-size:16px;color:#FFF;cursor:pointer;}
+.ct_btn a:hover{text-decoration:none;}
+.char_title #char_line{position:absolute; top:32px; left:-5px; width:487px; z-index:2;}

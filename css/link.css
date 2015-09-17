@@ -1,0 +1,11 @@
+@charset "utf-8";
+.hot_full{height:140px;}
+.hot_full .hot{width:1176px;height:140px;margin-left:-588px;position:absolute;left:50%;background-color:#FFF;}
+.hot .hot_links{width:1143px;height:105px;position:absolute;top:26px;left:17px;}
+.hot_links .link_pic{background:url(../shop-images/menu-button.png) no-repeat left top;width:125px;height:32px;text-align:center; padding-top:8px; font-size:16px;color:#FFF;position:absolute;left:14px;top:1px;}
+.hot_links #link_line{position:absolute; top:32px; left:-5px; width:1143px; z-index:2;}
+.hot_links .link_word{width:1143px;height:30px;position:absolute;top:46px;left:-23px;}
+.hot_links .link_word li{text-decoration:none;list-style:none;line-height:15px;border-right:1px solid #666;float:left;font-size:14px;padding-top:0;padding-right:10px;padding-bottom:0;padding-left:10px;}
+.hot_links .link_word li a{color:#666;}
+.hot_links .link_word li a:hover{text-decoration:underline;color:#FF0000;}
+.hot .shadow{width:1176px;height:8px;position:absolute;top:132px;left:0px;}
